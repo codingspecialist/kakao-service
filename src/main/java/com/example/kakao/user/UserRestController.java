@@ -31,7 +31,6 @@ import java.util.Optional;
 @RestController
 public class UserRestController {
 
-    private final AuthenticationManager authenticationManager;
     private final UserService userService;
     private final GlobalExceptionHandler globalExceptionHandler;
 
