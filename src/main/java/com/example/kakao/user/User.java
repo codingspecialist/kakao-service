@@ -33,4 +33,9 @@ public class User{
         this.username = username;
         this.roles = roles;
     }
+
+    public void updatePassword(String password) {
+        this.password = password;
+    }
+
 }
